@@ -1,0 +1,58 @@
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    opacity: 0.3;
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+h1 {
+    font-family: "Rock Salt", cursive;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+.row {
+    margin-top:50px;
+    text-align: center;
+}
+
+.row-footer {
+    margin-bottom:25px;
+}
+
+.screenshot-img {
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2);
+}
+
+.btn-landho {
+    background-color: #86cccc!important;
+    color:white!important;
+    -webkit-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    -moz-text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.btn-landho:hover {
+    opacity: 0.9;
+}
+
+a {
+    color: #86cccc!important;
+}

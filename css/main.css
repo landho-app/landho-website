@@ -18,7 +18,7 @@ video {
     filter: grayscale(100%);
 }
 
-h1 {
+h1, h3 {
     font-family: "Rock Salt", cursive;
 }
 
@@ -76,4 +76,10 @@ a {
 
 .carousel-btn:hover {
     color:#444!important;
+}
+
+.reverse {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: left;
 }

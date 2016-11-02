@@ -2,7 +2,7 @@ body {
     background-color: #f1f1f1;
 }
 
-video { 
+video {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -63,4 +63,16 @@ a {
 
 #screenshots img {
     width:100%
+}
+
+.heroImg {
+	float:right;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+	#screenshots {
+		padding-right:0px;
+	}
 }

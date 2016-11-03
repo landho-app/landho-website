@@ -62,7 +62,10 @@ a {
 }
 
 #screenshots img {
-    width:100%
+    width:100%;
+	-webkit-box-shadow: 0px 0px 50px 0px rgba(50, 50, 50, 0.1);
+	-moz-box-shadow:    0px 0px 50px 0px rgba(50, 50, 50, 0.1);
+	box-shadow:         0px 0px 50px 0px rgba(50, 50, 50, 0.1);
 }
 
 .heroImg {
@@ -71,7 +74,7 @@ a {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-	
+
 	#screenshots {
 		padding-right:0px;
 	}
